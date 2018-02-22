@@ -12,6 +12,8 @@
 		41ADAF19203EF19A00B3F2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ADAF17203EF19A00B3F2FC /* Main.storyboard */; };
 		41ADAF1B203EF19A00B3F2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ADAF1A203EF19A00B3F2FC /* Assets.xcassets */; };
 		41ADAF1E203EF19A00B3F2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ADAF1C203EF19A00B3F2FC /* LaunchScreen.storyboard */; };
+		41ADAF26203EF4EE00B3F2FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ADAF25203EF4EE00B3F2FC /* SecondViewController.swift */; };
+		41ADAF28203F01D600B3F2FC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ADAF27203F01D600B3F2FC /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		41ADAF1A203EF19A00B3F2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41ADAF1D203EF19A00B3F2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41ADAF1F203EF19A00B3F2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ADAF25203EF4EE00B3F2FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		41ADAF27203F01D600B3F2FC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				41ADAF13203EF19A00B3F2FC /* AppDelegate.swift */,
 				41ADAF15203EF19A00B3F2FC /* ViewController.swift */,
+				41ADAF25203EF4EE00B3F2FC /* SecondViewController.swift */,
 				41ADAF17203EF19A00B3F2FC /* Main.storyboard */,
 				41ADAF1A203EF19A00B3F2FC /* Assets.xcassets */,
 				41ADAF1C203EF19A00B3F2FC /* LaunchScreen.storyboard */,
 				41ADAF1F203EF19A00B3F2FC /* Info.plist */,
+				41ADAF27203F01D600B3F2FC /* NotificationViewController.swift */,
 			);
 			path = CommunicationPatterns;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ADAF26203EF4EE00B3F2FC /* SecondViewController.swift in Sources */,
 				41ADAF16203EF19A00B3F2FC /* ViewController.swift in Sources */,
 				41ADAF14203EF19A00B3F2FC /* AppDelegate.swift in Sources */,
+				41ADAF28203F01D600B3F2FC /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
